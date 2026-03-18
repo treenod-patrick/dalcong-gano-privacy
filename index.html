@@ -11,9 +11,6 @@
         h3 { color: #555; margin-top: 20px; }
         p, li { margin: 8px 0; }
         ul { padding-left: 24px; }
-        .lang-toggle { text-align: right; margin-bottom: 20px; }
-        .lang-toggle a { color: #0066cc; text-decoration: none; }
-        .section-en { display: none; }
         hr { margin: 40px 0; border: none; border-top: 1px solid #ddd; }
         table { border-collapse: collapse; width: 100%; margin: 10px 0; }
         td, th { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
@@ -22,8 +19,8 @@
 </head>
 <body>
     <h1>달콩가노 개인정보 처리방침</h1>
-    <p><strong>시행일:</strong> 2026년 3월 18일</p>
-    <p><strong>최종 수정일:</strong> 2026년 3월 18일</p>
+    <p><strong>시행일:</strong> 2026년 3월 19일</p>
+    <p><strong>최종 수정일:</strong> 2026년 3월 19일</p>
 
     <h2>1. 개요</h2>
     <p>"달콩가노"(이하 "앱")는 간호사 근무 스케줄 관리 서비스를 제공하는 모바일 애플리케이션입니다. 본 개인정보 처리방침은 앱이 수집하는 정보, 수집 이유, 정보의 사용 방법에 대해 설명합니다.</p>
@@ -33,68 +30,91 @@
     <table>
         <tr><th>항목</th><th>내용</th></tr>
         <tr><td>개발자</td><td>NINETALEZ</td></tr>
-        <tr><td>연락처 이메일</td><td>kochaejh@naver.com</td></tr>
+        <tr><td>연락처 이메일</td><td>kochaejh@gmail.com</td></tr>
     </table>
 
     <h2>3. 수집하는 개인정보 항목 및 수집 목적</h2>
-    <p>앱은 서비스 제공을 위해 아래와 같은 최소한의 정보를 수집할 수 있습니다.</p>
+    <p>앱은 서비스 제공을 위해 아래와 같은 최소한의 정보를 수집합니다.</p>
     <table>
         <tr><th>수집 항목</th><th>수집 목적</th><th>필수 여부</th></tr>
+        <tr><td>이메일 주소</td><td>회원가입 및 계정 식별, 로그인 인증</td><td>필수</td></tr>
+        <tr><td>닉네임</td><td>서비스 내 사용자 식별 및 표시</td><td>필수</td></tr>
+        <tr><td>프로필 사진</td><td>사용자 프로필 표시</td><td>선택</td></tr>
+        <tr><td>근무 스케줄 데이터</td><td>근무 일정 관리 및 동기화</td><td>필수 (서비스 핵심 기능)</td></tr>
         <tr><td>광고 식별자 (GAID/IDFA)</td><td>맞춤형 광고 제공 및 광고 성과 측정</td><td>선택</td></tr>
         <tr><td>앱 사용 로그</td><td>서비스 개선 및 오류 분석</td><td>자동 수집</td></tr>
     </table>
-    <p><strong>앱은 건강 정보, 의료 데이터, 건강 관련 데이터를 수집하지 않습니다.</strong> 앱은 기기의 Health Connect(건강 커넥트), Google Fit, Samsung Health 또는 기타 건강 플랫폼에 접근하지 않으며, 이러한 서비스의 데이터를 읽거나 쓰지 않습니다.</p>
-    <p>앱에서 관리하는 근무 스케줄 데이터(근무 일정, 교대 시간 등)는 사용자의 기기에만 로컬로 저장되며, 외부 서버로 전송되지 않습니다.</p>
 
-    <h2>4. 개인정보의 제3자 제공</h2>
-    <p>앱은 광고 서비스를 위해 다음과 같은 제3자 서비스를 사용할 수 있습니다:</p>
+    <h3>3-1. 건강 데이터(Health Data)에 관한 고지</h3>
+    <p><strong>앱은 건강 정보(Health Data), 의료 데이터, 건강 관련 데이터를 수집, 저장, 처리 또는 공유하지 않습니다.</strong></p>
+    <p>앱은 기기의 Health Connect(건강 커넥트), Google Fit, Samsung Health, Apple HealthKit 또는 기타 건강 플랫폼에 접근하지 않으며, 이러한 서비스의 데이터를 읽거나 쓰지 않습니다. 앱이 요청하는 어떠한 권한도 건강 데이터에 대한 액세스와 관련이 없습니다.</p>
+    <p>앱에서 관리하는 근무 스케줄 데이터(근무 일정, 교대 시간, 근무 유형 등)는 업무 일정 관리 목적으로만 사용되며, 건강 정보로 분류되지 않습니다.</p>
+
+    <h2>4. 개인정보의 수집 방법</h2>
+    <p>앱은 다음과 같은 방법으로 개인정보를 수집합니다:</p>
+    <ul>
+        <li><strong>소셜 로그인:</strong> Google, 카카오(Kakao), 네이버(Naver) 계정을 통한 로그인 시 해당 서비스에서 제공하는 이메일, 닉네임, 프로필 사진을 수집합니다.</li>
+        <li><strong>앱 내 입력:</strong> 사용자가 직접 입력하는 근무 스케줄 데이터를 수집합니다.</li>
+        <li><strong>자동 수집:</strong> 앱 사용 중 자동으로 생성되는 사용 로그 및 기기 정보를 수집합니다.</li>
+    </ul>
+
+    <h2>5. 개인정보의 제3자 제공</h2>
+    <p>앱은 서비스 제공을 위해 다음과 같은 제3자 서비스를 사용합니다:</p>
     <table>
         <tr><th>서비스</th><th>제공 정보</th><th>목적</th><th>개인정보처리방침</th></tr>
+        <tr><td>Supabase</td><td>이메일, 닉네임, 프로필 사진, 스케줄 데이터</td><td>클라우드 데이터 저장 및 사용자 인증</td><td><a href="https://supabase.com/privacy">Supabase 개인정보처리방침</a></td></tr>
+        <tr><td>Google OAuth</td><td>이메일, 이름, 프로필 사진</td><td>소셜 로그인 인증</td><td><a href="https://policies.google.com/privacy">Google 개인정보처리방침</a></td></tr>
+        <tr><td>카카오 로그인</td><td>이메일, 닉네임, 프로필 사진</td><td>소셜 로그인 인증</td><td><a href="https://www.kakao.com/policy/privacy">카카오 개인정보처리방침</a></td></tr>
+        <tr><td>네이버 로그인</td><td>이메일, 닉네임, 프로필 사진</td><td>소셜 로그인 인증</td><td><a href="https://policy.naver.com/policy/privacy.html">네이버 개인정보처리방침</a></td></tr>
         <tr><td>Google AdMob</td><td>광고 식별자, 기기 정보</td><td>광고 제공</td><td><a href="https://policies.google.com/privacy">Google 개인정보처리방침</a></td></tr>
     </table>
     <p>상기 외에 이용자의 개인정보를 제3자에게 제공하지 않습니다.</p>
 
-    <h2>5. 개인정보의 보유 및 이용 기간</h2>
-    <ul>
-        <li>앱 사용 데이터: 서비스 이용 기간 동안 보유</li>
-        <li>기기에 저장된 스케줄 데이터: 앱 삭제 시 즉시 삭제</li>
-        <li>광고 식별자: 이용자가 광고 추적을 거부하거나 앱을 삭제할 경우 즉시 수집 중단</li>
-    </ul>
+    <h2>6. 개인정보의 보유 및 이용 기간</h2>
+    <table>
+        <tr><th>데이터 유형</th><th>보유 기간</th><th>삭제 시점</th></tr>
+        <tr><td>계정 정보 (이메일, 닉네임, 프로필)</td><td>서비스 이용 기간</td><td>회원 탈퇴 시 즉시 삭제</td></tr>
+        <tr><td>근무 스케줄 데이터</td><td>서비스 이용 기간</td><td>회원 탈퇴 시 또는 사용자 요청 시 삭제</td></tr>
+        <tr><td>앱 사용 로그</td><td>최대 1년</td><td>보유 기간 만료 시 자동 삭제</td></tr>
+        <tr><td>광고 식별자</td><td>수집 기간 중</td><td>광고 추적 거부 또는 앱 삭제 시 즉시 수집 중단</td></tr>
+    </table>
 
-    <h2>6. 이용자의 권리</h2>
+    <h2>7. 이용자의 권리 및 데이터 삭제 방법</h2>
     <p>이용자는 다음과 같은 권리를 행사할 수 있습니다:</p>
     <ul>
+        <li><strong>계정 삭제 (회원 탈퇴):</strong> 앱 내 설정 > 계정 관리 > 회원 탈퇴를 통해 계정과 관련된 모든 데이터를 삭제할 수 있습니다. 삭제 요청 시 서버(Supabase)에 저장된 모든 데이터가 즉시 삭제됩니다.</li>
+        <li><strong>데이터 삭제:</strong> 앱을 기기에서 삭제(언인스톨)하면 기기에 로컬로 저장된 모든 데이터가 삭제됩니다.</li>
         <li><strong>광고 추적 거부:</strong> 기기 설정에서 광고 ID 재설정 또는 맞춤 광고를 거부할 수 있습니다.</li>
-        <li><strong>데이터 삭제:</strong> 앱을 삭제하면 기기에 저장된 모든 데이터가 삭제됩니다.</li>
-        <li><strong>정보 요청:</strong> 수집된 개인정보에 대해 열람, 수정, 삭제를 요청할 수 있습니다.</li>
+        <li><strong>정보 열람/수정/삭제 요청:</strong> 수집된 개인정보에 대해 열람, 수정, 삭제를 아래 연락처로 요청할 수 있습니다.</li>
     </ul>
-    <p>위 권리 행사를 위해 아래 연락처로 문의하실 수 있습니다.</p>
+    <p><strong>데이터 삭제 요청 연락처:</strong> kochaejh@gmail.com</p>
 
-    <h2>7. 아동의 개인정보 보호</h2>
+    <h2>8. 아동의 개인정보 보호</h2>
     <p>앱은 만 14세 미만 아동을 대상으로 하지 않으며, 의도적으로 아동의 개인정보를 수집하지 않습니다. 아동의 개인정보가 수집된 것을 인지한 경우 즉시 삭제 조치를 취합니다.</p>
 
-    <h2>8. 개인정보의 안전성 확보 조치</h2>
+    <h2>9. 개인정보의 안전성 확보 조치</h2>
     <p>개발자는 이용자의 개인정보 보호를 위해 다음과 같은 조치를 취합니다:</p>
     <ul>
-        <li>스케줄 데이터는 기기 내 로컬 저장소에만 저장</li>
-        <li>네트워크 통신 시 암호화(HTTPS) 적용</li>
+        <li>모든 네트워크 통신 시 암호화(HTTPS/TLS) 적용</li>
+        <li>사용자 인증 토큰의 안전한 저장 및 관리</li>
+        <li>데이터베이스 접근 제어(Row Level Security) 적용</li>
         <li>불필요한 개인정보 수집 최소화</li>
     </ul>
 
-    <h2>9. 개인정보 보호 책임자</h2>
+    <h2>10. 개인정보 보호 책임자</h2>
     <p>개인정보 관련 문의사항이 있으시면 아래 연락처로 문의해 주세요.</p>
     <ul>
-        <li><strong>이메일:</strong> kochaejh@naver.com</li>
+        <li><strong>이메일:</strong> kochaejh@gmail.com</li>
     </ul>
 
-    <h2>10. 개인정보 처리방침 변경</h2>
+    <h2>11. 개인정보 처리방침 변경</h2>
     <p>본 방침은 관련 법률 및 서비스 변경에 따라 수정될 수 있습니다. 변경 사항이 있을 경우 앱 내 공지 또는 본 페이지를 통해 알려드립니다.</p>
 
     <hr>
 
     <h1>Dalcong Gano Privacy Policy</h1>
-    <p><strong>Effective Date:</strong> March 18, 2026</p>
-    <p><strong>Last Updated:</strong> March 18, 2026</p>
+    <p><strong>Effective Date:</strong> March 19, 2026</p>
+    <p><strong>Last Updated:</strong> March 19, 2026</p>
 
     <h2>1. Overview</h2>
     <p>"Dalcong Gano" (hereinafter "the App") is a mobile application that provides nursing shift schedule management services. This Privacy Policy describes what information the App collects, why it collects it, and how it is used.</p>
@@ -103,53 +123,76 @@
     <table>
         <tr><th>Item</th><th>Details</th></tr>
         <tr><td>Developer</td><td>NINETALEZ</td></tr>
-        <tr><td>Contact Email</td><td>kochaejh@naver.com</td></tr>
+        <tr><td>Contact Email</td><td>kochaejh@gmail.com</td></tr>
     </table>
 
     <h2>3. Information We Collect</h2>
     <table>
         <tr><th>Data Type</th><th>Purpose</th><th>Required</th></tr>
+        <tr><td>Email address</td><td>Account registration, identification, and login authentication</td><td>Required</td></tr>
+        <tr><td>Nickname</td><td>User identification and display within the service</td><td>Required</td></tr>
+        <tr><td>Profile photo</td><td>User profile display</td><td>Optional</td></tr>
+        <tr><td>Work schedule data</td><td>Shift schedule management and synchronization</td><td>Required (core feature)</td></tr>
         <tr><td>Advertising ID (GAID/IDFA)</td><td>Personalized advertising and ad performance measurement</td><td>Optional</td></tr>
         <tr><td>App usage logs</td><td>Service improvement and error analysis</td><td>Automatic</td></tr>
     </table>
-    <p><strong>The App does NOT collect any health information, medical data, or health-related data.</strong> The App does not access Health Connect, Google Fit, Samsung Health, or any other health platform on the device. It does not read from or write to any health data sources.</p>
-    <p>Schedule data managed in the App (work schedules, shift times, etc.) is stored locally on the user's device only and is not transmitted to any external servers.</p>
 
-    <h2>4. Third-Party Services</h2>
-    <p>The App may use the following third-party services for advertising:</p>
-    <ul>
-        <li><strong>Google AdMob:</strong> Advertising ID and device information for ad delivery. See <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
-    </ul>
-    <p>We do not share your personal information with any other third parties.</p>
+    <h3>3-1. Disclosure Regarding Health Data</h3>
+    <p><strong>The App does NOT collect, store, process, or share any health information (Health Data), medical data, or health-related data.</strong></p>
+    <p>The App does not access Health Connect, Google Fit, Samsung Health, Apple HealthKit, or any other health platform on the device. It does not read from or write to any health data sources. None of the permissions requested by the App are related to health data access.</p>
+    <p>Work schedule data managed in the App (shift schedules, shift times, shift types, etc.) is used solely for work schedule management purposes and is not classified as health information.</p>
 
-    <h2>5. Data Retention</h2>
+    <h2>4. How We Collect Information</h2>
     <ul>
-        <li>App usage data: Retained during service use period</li>
-        <li>Schedule data on device: Deleted immediately upon app uninstallation</li>
-        <li>Advertising ID: Collection stops when user opts out of ad tracking or uninstalls the app</li>
+        <li><strong>Social login:</strong> When you sign in via Google, Kakao, or Naver accounts, we collect the email, nickname, and profile photo provided by those services.</li>
+        <li><strong>In-app input:</strong> We collect work schedule data that you enter directly.</li>
+        <li><strong>Automatic collection:</strong> Usage logs and device information are collected automatically during app use.</li>
     </ul>
 
-    <h2>6. Your Rights</h2>
+    <h2>5. Third-Party Services</h2>
+    <table>
+        <tr><th>Service</th><th>Data Shared</th><th>Purpose</th><th>Privacy Policy</th></tr>
+        <tr><td>Supabase</td><td>Email, nickname, profile photo, schedule data</td><td>Cloud data storage and user authentication</td><td><a href="https://supabase.com/privacy">Supabase Privacy Policy</a></td></tr>
+        <tr><td>Google OAuth</td><td>Email, name, profile photo</td><td>Social login authentication</td><td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td></tr>
+        <tr><td>Kakao Login</td><td>Email, nickname, profile photo</td><td>Social login authentication</td><td><a href="https://www.kakao.com/policy/privacy">Kakao Privacy Policy</a></td></tr>
+        <tr><td>Naver Login</td><td>Email, nickname, profile photo</td><td>Social login authentication</td><td><a href="https://policy.naver.com/policy/privacy.html">Naver Privacy Policy</a></td></tr>
+        <tr><td>Google AdMob</td><td>Advertising ID, device information</td><td>Ad delivery</td><td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td></tr>
+    </table>
+    <p>We do not share your personal information with any other third parties beyond those listed above.</p>
+
+    <h2>6. Data Retention</h2>
+    <table>
+        <tr><th>Data Type</th><th>Retention Period</th><th>Deletion Timing</th></tr>
+        <tr><td>Account info (email, nickname, profile)</td><td>Duration of service use</td><td>Immediately upon account deletion</td></tr>
+        <tr><td>Work schedule data</td><td>Duration of service use</td><td>Upon account deletion or user request</td></tr>
+        <tr><td>App usage logs</td><td>Up to 1 year</td><td>Automatically deleted after retention period</td></tr>
+        <tr><td>Advertising ID</td><td>During collection period</td><td>Collection stops upon ad tracking opt-out or app uninstallation</td></tr>
+    </table>
+
+    <h2>7. Your Rights and How to Delete Your Data</h2>
     <ul>
+        <li><strong>Account deletion:</strong> You can delete your account and all associated data through Settings &gt; Account Management &gt; Delete Account within the App. All data stored on the server (Supabase) will be immediately deleted upon request.</li>
+        <li><strong>Data deletion:</strong> Uninstalling the App from your device will delete all locally stored data.</li>
         <li><strong>Opt-out of ad tracking:</strong> Reset your advertising ID or opt out of personalized ads in your device settings.</li>
-        <li><strong>Data deletion:</strong> Uninstalling the app deletes all locally stored data.</li>
-        <li><strong>Information request:</strong> You may request access to, correction of, or deletion of your collected personal information.</li>
+        <li><strong>Information request:</strong> You may request access to, correction of, or deletion of your collected personal information by contacting us.</li>
     </ul>
+    <p><strong>Data deletion request contact:</strong> kochaejh@gmail.com</p>
 
-    <h2>7. Children's Privacy</h2>
+    <h2>8. Children's Privacy</h2>
     <p>The App is not directed at children under 14. We do not knowingly collect personal information from children. If we become aware that a child's information has been collected, we will take immediate steps to delete it.</p>
 
-    <h2>8. Security Measures</h2>
+    <h2>9. Security Measures</h2>
     <ul>
-        <li>Schedule data is stored only in local device storage</li>
-        <li>All network communications use encryption (HTTPS)</li>
+        <li>All network communications use encryption (HTTPS/TLS)</li>
+        <li>Secure storage and management of authentication tokens</li>
+        <li>Database access control (Row Level Security) applied</li>
         <li>Minimal collection of personal information</li>
     </ul>
 
-    <h2>9. Contact Us</h2>
-    <p>For privacy-related inquiries, please contact us at: <strong>kochaejh@naver.com</strong></p>
+    <h2>10. Contact Us</h2>
+    <p>For privacy-related inquiries, please contact us at: <strong>kochaejh@gmail.com</strong></p>
 
-    <h2>10. Changes to This Policy</h2>
+    <h2>11. Changes to This Policy</h2>
     <p>This policy may be updated in accordance with changes in applicable laws or services. Any changes will be notified through the App or this page.</p>
 </body>
 </html>
